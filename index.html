@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trial</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  href="styles/style.css"/>
+        <link rel="stylesheet" href="fontawesome-free-5.13.0-web\css\all.css">
+
+        <script>
+            function openSlideMenu(){
+                document.getElementById('menu').style.width = '350px';
+                document.getElementById('content').style.marginLeft = '250px';
+            }
+
+            function closeSlideMenu(){
+                document.getElementById('menu').style.width = '0';
+                document.getElementById('content').style.marginLeft = '0';
+            }
+        </script>
+    </head>
+    <body>
+        <div id="content">
+            <span class="slide">
+                <a href="#"  class="open" onclick="openSlideMenu()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </span>
+
+            <div id="menu" class="nav">
+                <a href="#" class="close" onclick="closeSlideMenu()">
+                    <i class="fas fa-times"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <a href="#" class="nav-reserve">RESERVE NOW</a>
+            </div>
+
+        </div>
+        <header>
+            <a href="home.html" class="header-brand"><img class="logo" src="assets/Logo 3.png"></a>
+        </header>
+        <main>
+            <section class="index-banner">
+                <div class="vertical-center">
+                    <a href="home.html" class="main-brand"><img class="logo" src="assets/Logo 4.png"></a>
+                    <h2>Good food ends with Good talk</h2>
+                </div>
+            </section>
+        
+            <section>
+                <div class="index-boxlink-1">
+                    <img src="assets/Logo 9.png" class="welcome-logo">
+                    <h3>Welcome to</h3>
+                    <div class="welcome-details">
+                        <h2>La Pietanza</h2>
+                        <p>La Pietanza gives a calm and refreshing ambience. Everything was done in a nice and classic taste even to the smallest detail. A classic, old-money, well-travelled and highly culture vibe. In terms of our service, there's no need to worry about because La Pietanza always serves excellent.</p>
+                    </div>
+                    <a href="#"><h4>Reservation</h4></a>
+                    
+                </div>
+                <div class="index-boxlink-2">
+                    <img src="assets/r.jpg" class="welcome-img">
+                </div>
+            </section>
+            <section class="index-fix-img">
+                <div class="vertical-center">
+                    <h2>FRESH . TASTY . AFFORDABLE</h2>
+                    <h4>Experience calm and refreshing ambience only here in <br> La Pietanza with tasty, classic and affordable cuisines.</h4>
+                </div>
+            </section>
+            <section>
+                <div class="index-boxlink-3">
+                    <img src="assets/b.jpg" class="special-img">
+                </div>
+
+                <div class="index-boxlink-4">
+                    <h2>Today's Special</h2>
+                    <p><span>Giancarlo-revolledo</span><br>Try our La Pietanza giancarlo-revolledo! Giancarlo-revolledo is base from Italian cuisine with a touch of Filipino tase. Only for P150.00, you can now experience Filipino-Italian ambience with classic aroma.</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="index-footer-1">
+                <img src="assets/Logo 5.png" class="footer-logo">
+                <h3>Share your experience now!</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </section>
+            <section class="index-footer-2">
+                <h3>OPENING HOURS<hr></h3>
+                <ul>
+                    <li>Monday to Friday</li>
+                    <li>Breakfast: 5:00 am - 8:00 am</li>
+                    <li>Lunch: 11:00 am - 2:00 pm</li>
+                    <li>Dinner: 7:00 pm - 9:00 pm</li>
+                    <li>Public holidays: <span>closed</span></li>
+                </ul>
+            </section>
+
+            <section class="index-footer-3">
+                <h3>CONTACT US<hr></h3>
+                <ul>
+                    <li><i class="fa fa-phone"></i> 09217355978</li>
+                    <li><i class="fa fa-phone"></i> 09217355978</li><br>
+                    <hr>
+                    <br><li><i class="fa fa-envelope"></i> lapietanza@info.com</li>
+                    <li><i class="fa fa-map-marker"></i> A-0321 Don Mariano St. Quezon City</li>
+                </ul>
+            </section>
+        </footer>
+
+        <div class="copyright">
+            <h4>© 2020<span> La Pietanza</span>. All Rights Reserved</h4>
+        </div>
+    </body>
+</html>
