@@ -283,7 +283,7 @@ table {
 }
 /* ==========================================================================Section Styles========================================================================== */
 .section-padding {
-	padding:80px 0 100px
+	padding:80px 0 80px
 }
 .dark-bg {
 	background:#f3f5f8;
@@ -713,10 +713,10 @@ img.grayscale:hover {
 	filter:none!important;
 	-webkit-filter:grayscale(0%);
 	overflow:hidden;
-	transition:all 0.5s;
-	-webkit-transition:all 0.5s;
-	-moz-transition:all 0.5s;
-	-o-transition:all 0.5s;
+	transition:all 0.1s;
+	-webkit-transition:all 0.1s;
+	-moz-transition:all 0.1s;
+	-o-transition:all 0.1s;
 }
 .overlay-effect .img i {
 	font-size:30px;
@@ -732,13 +732,13 @@ img.grayscale:hover {
 .overlay-effect .overlay a.expand {
 	left:0;
 	right:0;
-	bottom:47%;
 	margin:0 auto -30px auto;
 }
 .overlay-effect .img.hover .overlay {
 	height:100%;
 	opacity:1;
 }
+
 .img img {
 	width:-webkit-calc(100%+40px) !important;
 	width:calc(100%+40px) !important;
@@ -751,10 +751,11 @@ img.grayscale:hover {
 	-ms-transform:translate3d(-40px,0,0);
 }
 .img:hover img {
-	-webkit-transform:translate3d(0,0,0);
-	transform:translate3d(0,0,0);
+	-webkit-transform:translate3d(-40px,0,0);
+	transform:translate3d(-40px,0,0);
 	-ms-transform:translate3d(-40px,0,0);
 }
+
 .hype {
 	position:absolute;
 	left:0;
@@ -981,13 +982,10 @@ footer p {
 #servicesSlider {
 	margin-top:70px;
 }
-ul.slides li {
-	margin-bottom:20px;
-}
+
 .features-slider {
 	position:relative;
 	padding:11% 100px 10% 100px;
-	height:400px;
 	background-color:#3F6184;
 }
 .features-slider ul {
